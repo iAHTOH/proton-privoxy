@@ -5,7 +5,8 @@ Docker container for setting up a [Privoxy](https://www.privoxy.org/) proxy that
 
 Build Docker image:
 ```
-docker build -t walt3rl/proton-privoxy .
+
+docker build -t iahtoh/proton-privoxy https://github.com/iAHTOH/proton-privoxy.git
 ```
 
 Run Docker container:

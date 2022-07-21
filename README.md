@@ -18,7 +18,7 @@ docker run -d \
      -p 8888:8080 \
      -e PVPN_USERNAME=my_protonvpn_openvpn_username \
      -e PVPN_PASSWORD=my_protonvpn_openvpn_password \
-     --name proton-privoxy walt3rl/proton-privoxy
+     --name proton-privoxy iahtoh/proton-privoxy
 ```
 
 Or with this `docker-compose.yml`:
